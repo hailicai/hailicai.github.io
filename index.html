@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8" />
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<!-- Custom Style -->
+	<link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+	<div class="main-wrapper">
+	    <div id="inputs-area-wrapper"">
+		<div id="inputs-area" id="inputs-area-top">
+		    <!-- Part 1 -->
+		    <div class="abs part-header">
+			<h1>Coil 1</h1>
+		    </div>
+		    <div class="image">
+			<img id="bg-top-image" src="img/bg1.png">
+		    </div>
+		    <!-- ===inputs=== -->
+		    <div class="abs num-input one-line" id="inpt-b-out1">
+			<p>b_out1:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input" id="inpt-b-in1">
+			<p>b_in1:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input one-line" id="inpt-turns1">
+			<p>turns1:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input one-line" id="inpt-a-in1">
+			<p>a_in1:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input one-line" id="inpt-a-out1">
+			<p>a_out1:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input one-line" id="inpt-d1">
+			<p>d1:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		</div>
+
+
+		<div id="inputs-area" id="inputs-area-top">
+		    <!-- Part 2 -->
+		    <div class="abs part-header">
+			<h1>Coil 2</h1>
+		    </div>
+		    <div class="image">
+			<img id="bg-top-image" src="img/bg1.png">
+		    </div>
+		    <!-- ===inputs=== -->
+		    <div class="abs num-input one-line" id="inpt-b-out2">
+			<p>b_out2:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input" id="inpt-b-in2">
+			<p>b_in2:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input one-line" id="inpt-turns2">
+			<p>turns2:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input one-line" id="inpt-a-in2">
+			<p>a_in2:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input one-line" id="inpt-a-out2">
+			<p>a_out2:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input one-line" id="inpt-d2">
+			<p>d2:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		</div>
+
+		<div id="inputs-area" id="inputs-area-bottom">
+		    <!-- Part 3 -->
+		    <div class="abs part-header">
+			<h1>Special<br>Relationship</h1>
+		    </div>
+		    <div class="image">
+			<img id="bg-bottom-image" src="img/bg2.png">
+		    </div>
+		    <div class="abs num-input" id="inpt-air-gap">
+			<p>Air gap between two coils:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input" id="inpt-dy">
+			<p>dy:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		    <div class="abs num-input one-line" id="inpt-dx">
+			<p>dx:</p>
+			<input placeholder="Enter Number"/>
+		    </div>
+		</div>
+	    </div>
+	    <div id="outputs-area-wrapper">
+		<button id="calc-btn">Calculate</button>
+		<div id="outputs-area">
+		    <div class="output-item" id="output-l1">
+			<p>L1:</p>
+			<p class="out-value"></p>
+			<p>uH</p>
+		    </div>
+		    <div class="output-item" id="output-M">
+			<p>M:</p>
+			<p class="out-value"></p>
+			<p>uH</p>
+		    </div>
+		    <div class="output-item" id="output-l2">
+			<p>L2:</p>
+			<p class="out-value"></p>
+			<p>uH</p>
+		    </div>
+		    <div class="output-item" id="output-k">
+			<p>k:</p>
+			<p class="out-value"></p>
+		    </div>
+		</div>
+	    </div>
+	</div>
+    </body>
+    <!-- Custom script -->
+    <script src="scripts/main.js"></script>
+</html>

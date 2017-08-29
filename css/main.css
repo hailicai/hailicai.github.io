@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-wrapper {
+    width: 600px;
+    position: relative;
+    background: #BCBCBC;
+}
+
+.abs {
+    position: absolute;
+}
+
+.part-header {
+    font-size: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.num-input {
+    top: 0px;
+    left: 0px;
+}
+
+.num-input p {
+    font-weight: 800;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+.num-input input {
+    width: 100px;
+    padding: 3px;
+}
+
+.one-line p {
+    display: inline
+}
+
+#inputs-area-wrapper{
+    width: 100%;
+}
+
+#inputs-area {
+    position: relative;
+}
+
+#outputs-area-wrapper{
+    margin-top: 20px;
+    padding-left: 50px;
+    height: 200px;
+    background: #BCBCBC;
+}
+
+.image img {
+    width: 350px;
+    height: auto;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#bg-bottom-image {
+    margin-left: 120px;
+}
+
+#calc-btn {
+    width: 120px;
+    height: 60px;
+    font-size: 22px;
+    color: white;
+    background: blue;
+    border: none;
+}
+#calc-btn:hover {
+    color: white;
+    background: green;
+    cursor: pointer;
+}
+
+.output-item {
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+.no-float {
+    float: none;
+}
+
+.output-item {
+    margin-top: 20px;
+}
+
+.output-item p {
+    display: inline;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.output-item .out-value {
+    width: 100px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Positions */
+#inpt-b-out1, #inpt-b-out2 {
+    left: 410px;
+    top: 40px;
+}
+#inpt-b-in1, #inpt-b-in2 {
+    left: 335px;
+    top: 60px;
+}
+#inpt-turns1, #inpt-turns2 {
+    left: 400px;
+    top: 120px;
+}
+#inpt-a-in1, #inpt-a-in2 {
+    left: 100px;
+    top: 200px;
+}
+#inpt-a-out1, #inpt-a-out2 {
+    left: 120px;
+    top: 255px;
+}
+#inpt-d1, #inpt-d2 {
+    left: 300px;
+    top: 205px;
+}
+
+
+#inpt-air-gap {
+    left: 430px;
+    top: 50px;
+}
+#inpt-dy {
+    left: 480px;
+    top: 160px;
+}
+#inpt-dx {
+    left: 150px;
+    top: 240px;
+}
