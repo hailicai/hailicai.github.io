@@ -144,3 +144,20 @@
     left: 150px;
     top: 240px;
 }
+
+#unit-hint {
+    width: 200px;
+    left: 350px;
+    top: 240px;
+    z-index: 2;
+}
+
+#unit-hint p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    display: in-line;
+    font-size: 30px;
+    color: #ff1a1a;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
